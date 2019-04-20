@@ -14,6 +14,7 @@
 		4C5404FD221A44300004E4C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C5404FB221A44300004E4C6 /* LaunchScreen.storyboard */; };
 		4C540508221A44300004E4C6 /* TuncatedTextTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C540507221A44300004E4C6 /* TuncatedTextTests.swift */; };
 		4C540513221A44300004E4C6 /* TuncatedTextUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C540512221A44300004E4C6 /* TuncatedTextUITests.swift */; };
+		4C540521221A69F60004E4C6 /* MarqueeLabelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C540520221A69F60004E4C6 /* MarqueeLabelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		4C54050E221A44300004E4C6 /* TuncatedTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuncatedTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C540512221A44300004E4C6 /* TuncatedTextUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuncatedTextUITests.swift; sourceTree = "<group>"; };
 		4C540514221A44300004E4C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C540520221A69F60004E4C6 /* MarqueeLabelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarqueeLabelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				4C5404F2221A442F0004E4C6 /* AppDelegate.swift */,
 				4C5404F4221A442F0004E4C6 /* ViewController.swift */,
 				4C5404F6221A442F0004E4C6 /* Main.storyboard */,
+				4C540520221A69F60004E4C6 /* MarqueeLabelViewController.swift */,
 				4C5404F9221A44300004E4C6 /* Assets.xcassets */,
 				4C5404FB221A44300004E4C6 /* LaunchScreen.storyboard */,
 				4C5404FE221A44300004E4C6 /* Info.plist */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C5404F5221A442F0004E4C6 /* ViewController.swift in Sources */,
+				4C540521221A69F60004E4C6 /* MarqueeLabelViewController.swift in Sources */,
 				4C5404F3221A442F0004E4C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX7GPB828A;
 				INFOPLIST_FILE = TuncatedText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UX7GPB828A;
 				INFOPLIST_FILE = TuncatedText/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
